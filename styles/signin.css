@@ -9,7 +9,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background: url(../assets/bg.jpg) no-repeat center center/cover;
+    background: url(../assets/bg-1.jpg) no-repeat center center/cover;
 }
 .signin{
     height: fit-content;

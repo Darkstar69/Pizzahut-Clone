@@ -27,14 +27,14 @@ form{
 
 form input{
     height: 2.5rem;
-    width: 70%;
+    width: 75%;
     padding: 0 0 0 0.5rem;
     border: 1px solid grey;
     border-radius: 5px;
 }
 form button{
     height: 2.5rem;
-    width: 72%;
+    width: 77%;
     padding: 0 0 0 0.5rem;
     border: 1px solid grey;
     border-radius: 5px;
@@ -47,4 +47,26 @@ form p a{
 }
 form p a:hover{
     color: red;
+}
+
+/* Responsive code */
+
+@media (min-width: 300px) and (max-width: 499px) {
+    form{
+        width: 85%;
+    }
+    form h3{
+        font-size: 16px;
+    }
+    form input{
+        width: 85%;
+    }
+    form button{
+        width: 85%;
+    }
+}
+@media (min-width: 500px) and (max-width: 850px) {
+    form{
+        width: 50%;
+    }
 }
